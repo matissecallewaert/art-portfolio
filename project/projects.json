@@ -1,0 +1,52 @@
+{
+  "button_1_name": "Contact me",
+  "button_1_email": "test@gmail.com",
+  "button_2_name": "GitHub",
+  "button_2_link": "https://test.com",
+  "button_3_name": "Resume",
+  "button_3_link": "https://test.com",
+  "name": "My name",
+  "description": "This is the description of me.",
+  "home-image": "../assets/images/home-image.jpg",
+    "projects": [
+    {
+      "id": "1",
+      "title": "Project 1",
+      "description": "This is the description for Project 1.",
+      "images": [
+        "../assets/images/project1/photo1.jpg",
+        "../assets/images/project1/photo1.jpg",
+        "../assets/images/project1/photo1.jpg",
+        "../assets/images/project1/photo1.jpg",
+        "../assets/images/project1/photo1.jpg",
+        "../assets/images/project1/photo1.jpg"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Project 2",
+      "description": "This is the description for Project 2.",
+      "images": [
+        "../assets/images/project2/photo1.jpg",
+        "../assets/images/project2/photo1.jpg",
+        "../assets/images/project2/photo1.jpg",
+        "../assets/images/project2/photo1.jpg",
+        "../assets/images/project2/photo1.jpg",
+        "../assets/images/project2/photo1.jpg"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Project 3",
+      "description": "This is the description for Project 3.",
+      "images": [
+        "../assets/images/project3/photo1.jpg",
+        "../assets/images/project3/photo1.jpg",
+        "../assets/images/project3/photo1.jpg",
+        "../assets/images/project3/photo1.jpg",
+        "../assets/images/project3/photo1.jpg",
+        "../assets/images/project3/photo1.jpg"
+      ]
+    }
+  ]
+}

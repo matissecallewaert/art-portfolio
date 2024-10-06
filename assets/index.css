@@ -1,0 +1,191 @@
+body {
+  background-color: #fffffa;
+  color: rgb(96, 96, 96);
+  font-family: "Verdana", "Geneva", "Tahoma", "sans-serif";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  height: calc(100vh - 20px);
+}
+
+.row {
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.container {
+  flex: 0 0 auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  min-height: 250px;
+  transition-duration: 0.5s;
+  margin: 5px;
+  border: #e4e4e4 solid 1px;
+  background-color: white;
+}
+
+.container img {
+  border-radius: 10px 10px 0 0;
+  margin: 0;
+  object-fit: contain;
+}
+
+.container div {
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+}
+
+.container h3 {
+  margin: 10px;
+  color: black;
+}
+
+.container p {
+  margin: 0 10px 10px 10px;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  transition-duration: 0.5s;
+}
+
+.carousel-button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-button:hover {
+  background-color: #333;
+}
+
+.carousel-button:disabled {
+  visibility: hidden;
+}
+
+.left {
+  margin-right: 10px;
+}
+
+.right {
+  margin-left: 10px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 90vw;
+  height: calc(100vh - 20px);
+  border: #e4e4e4 solid 1px;
+  background-color: white;
+}
+
+.about img {
+  width: 50vw;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  object-fit: contain;
+}
+
+.about > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.about p {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.about h1 {
+  color: black;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.button {
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+.buttons {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.link-wrapper {
+  text-decoration: none;
+  color: inherit;
+}
+
+.arrow {
+  color: black;
+  font-size: 30px;
+  left: 50%;
+  top: calc(100% - 50px);
+  position: absolute;
+}
+
+@media (max-width: 860px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons {
+    padding-bottom: 10px;
+  }
+  .about > div {
+    width: 100%;
+  }
+
+  .about img {
+    width: 100%;
+  }
+
+  .arrow {
+    visibility: hidden;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(66, 66, 66);
+  }
+}
