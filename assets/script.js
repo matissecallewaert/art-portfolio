@@ -141,7 +141,9 @@ window.addEventListener("resize", function () {
     const aboutHeight = aboutDiv.offsetHeight;
     const img = aboutDiv.querySelector("img");
 
-    img.style.height = `calc(100vh - ${aboutHeight}px)`;
+    if (img !== null) {
+      img.style.height = `calc(100vh - ${aboutHeight}px)`;
+    }
   }
 });
 

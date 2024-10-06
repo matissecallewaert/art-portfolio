@@ -7,7 +7,7 @@
   "button_3_link": "https://test.com",
   "name": "My name",
   "description": "This is the description of me.",
-  "home-image": "../assets/images/home-image.jpg",
+  "home_image": "../assets/images/home-image.jpg",
     "projects": [
     {
       "id": "1",
