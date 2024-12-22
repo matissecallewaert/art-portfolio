@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return urlParams.get(param);
   }
 
-  fetch("projects.json")
+  fetch("/project/projects.json")
     .then((response) => response.json())
     .then((data) => {
       data = data.projects;
